@@ -1,0 +1,27 @@
+body{
+    background-color: #ffffff;
+}
+
+hr{
+    border-color: black;
+}
+
+#aboutMe{
+    color:red;
+    border-color: black;
+    margin: 10px;
+    border-style: dotted;
+}
+
+.email{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+a:link{
+    color: red;
+}
+
+a:hover{
+    color: red;
+}
