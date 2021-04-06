@@ -1,7 +1,11 @@
 *{
     background-color: #0d8c04;
     color: #ffcb21;
-    margin-top: 20px;
+}
+
+img.align-center {
+    display: block;
+    margin: 0px auto;
 }
 
 hr{
@@ -12,7 +16,11 @@ hr{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
+}
+
+table td{
+    padding-right: 10px;
+}
 
 h1, h2, h3{
     text-align: center;
@@ -39,10 +47,6 @@ nav ul{
     justify-content: space-around;
     display: flex;
     padding-left: 10px;
-}
-
-img{
-    position: right;
 }
 
 a:link{
