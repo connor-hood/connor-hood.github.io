@@ -8,16 +8,14 @@ hr{
     border-color: black;
 }
 
-#aboutMe{
-    border-color: black;
-    margin: 10px;
-    border-style: dashed;
+#home h1{
+    color:black;
+    text-align: center;
 }
 
 nav{
-    position: sticky;
     text-align: center;
-    
+    border-color: black;
 }
 
 nav ul{
@@ -33,12 +31,12 @@ img{
 }
 
 a:link{
-    color: red;
+    color: #ffcb21;
     text-decoration: none;
 
 }
 
 a:hover{
-    color: red;
-    text-decoration: none;
+    color: #ffcb21;
+    text-decoration: underline;
 }
