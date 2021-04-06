@@ -1,5 +1,7 @@
-body{
-    background-color: #ffffff;
+*{
+    background-color: #0d8c04;
+    color: #ffcb21
+    
 }
 
 hr{
@@ -7,18 +9,28 @@ hr{
 }
 
 #aboutMe{
-    color:red;
     border-color: black;
     margin: 10px;
     border-style: dashed;
 }
 
-
-h1,p{
-    color: black;
+nav{
+    position: sticky;
+    text-align: center;
+    
 }
 
+nav ul{
+    padding: 0%;
+    list-style-type: none;
+    justify-content: space-around;
+    display: flex;
+    padding-left: 10px;
+}
 
+img{
+    position: right;
+}
 
 a:link{
     color: red;
