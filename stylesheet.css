@@ -1,15 +1,30 @@
 *{
     background-color: #0d8c04;
-    color: #ffcb21
-    
+    color: #ffcb21;
+    margin-top: 20px;
 }
 
 hr{
     border-color: black;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+h1, h2, h3{
+    text-align: center;
+}
 
 #home h1{
     color:black;
+    text-align: center;
+}
+
+#home p{
+    color: black;
     text-align: center;
 }
 
@@ -33,7 +48,6 @@ img{
 a:link{
     color: #ffcb21;
     text-decoration: none;
-
 }
 
 a:hover{
