@@ -2,6 +2,14 @@
     background-color: #0d8c04;
 }
 
+a:link{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+}
+
 img.align-center {
     display: block;
     margin: 0px auto;
@@ -40,25 +48,6 @@ nav ul{
     padding-left: 10px;
 }
 
-nav a:link{
-    color: black;
-    text-decoration: none;
-}
-
-nav a:hover{
-    text-decoration: none;
-    color: white;
-}
-
-nav a:visited{
-    color: black;
-    text-decoration: none;
-}
-
-.cat{
-    font-family: cursive;
-}
-
 .aboutMe p{
     font-size: 18pt;
 }
@@ -72,31 +61,4 @@ nav a:visited{
 
 table td{
     padding-right: 5px;
-    padding-left: 5px;
-}
-
-.projects a:link{
-    color: black;
-}
-
-.projects a:hover{
-    color: white;
-}
-
-.projects a:visited{
-    color: black;
-}
-
-table a:link{
-    color: black;
-    text-decoration: none;
-}
-
-table a:hover{
-    color: white;
-    text-decoration: none;
-}
-
-table a:visited{
-    color: black;
 }
