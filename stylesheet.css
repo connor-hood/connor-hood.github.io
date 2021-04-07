@@ -50,6 +50,15 @@ nav a:hover{
     color: white;
 }
 
+nav a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.cat{
+    font-family: cursive;
+}
+
 .aboutMe p{
     font-size: 18pt;
 }
@@ -74,6 +83,10 @@ table td{
     color: white;
 }
 
+.projects a:visited{
+    color: black;
+}
+
 table a:link{
     color: black;
     text-decoration: none;
@@ -82,4 +95,8 @@ table a:link{
 table a:hover{
     color: white;
     text-decoration: none;
+}
+
+table a:visited{
+    color: black;
 }
