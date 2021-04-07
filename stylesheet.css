@@ -2,16 +2,6 @@
     background-color: #0d8c04;
 }
 
-a:link{
-    color: black;
-    text-decoration: none;
-}
-
-a:hover{
-    color:black;
-    text-decoration: underline;
-}
-
 img.align-center {
     display: block;
     margin: 0px auto;
@@ -27,12 +17,12 @@ h1, h2, h3{
     font-family: 'Courier New', Courier, monospace;
 }
 
-#home h1{
+.home h1{
     color:black;
     text-align: center;
 }
 
-#home p{
+.home p{
     color: black;
     text-align: center;
     font-size: 24pt;
@@ -50,7 +40,17 @@ nav ul{
     padding-left: 10px;
 }
 
-#aboutMe p{
+nav a:link{
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.aboutMe p{
     font-size: 18pt;
 }
 
@@ -66,3 +66,20 @@ table td{
     padding-left: 5px;
 }
 
+.projects a:link{
+    color: black;
+}
+
+.projects a:hover{
+    color: white;
+}
+
+table a:link{
+    color: black;
+    text-decoration: none;
+}
+
+table a:hover{
+    color: white;
+    text-decoration: none;
+}
